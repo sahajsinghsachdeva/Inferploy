@@ -1,24 +1,29 @@
 *{
    margin: 0;
    padding: 0;
-   color: #f8f8f8;
-   font-family: sans-serif;
-   letter-spacing: 1px;
-   font-weight: 300;
 }
 body{
    overflow-x: hidden;
 }
 nav{
+   color: #f8f8f8;
+   font-family: sans-serif;
+   letter-spacing: 1px;
+   font-weight: 300;
    height: 6rem;
    width: 100vw;
-   background-color: #21282b;
-   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+   border: none;
    display: flex;
    position: fixed;
-   z-index: 10;
+   z-index: 999999;
+   background-color: transparent;
 }
-
+.transparent{
+   background-color: transparent;
+}
+.solid{
+   background-color: #085aff;
+}
 .logo{
    padding:1vh 1vw;
    display: inline-block;
@@ -27,9 +32,9 @@ nav{
    margin-bottom: auto;
 }
 .logo h3{
-   text-transform: uppercase;
+   font-variant: small-caps;
    font-weight: bold;
-   font-size: 1.5rem;
+   font-size: 2rem;
 }
 
 .nav-links{
@@ -47,8 +52,8 @@ nav{
    margin-left: 5px;
 }
 .nav-links li:hover{
-   background-color: #5ec1e6;
-   border: 1px solid #5ec1e6;
+   background-color: #21282b;
+   border: 1px solid #085aff;
    margin-left: 5px;
 }
 .nav-links li a{
@@ -66,7 +71,7 @@ nav{
 .hamburger div{
    width: 30px;
    height:3px;
-   background: #f2f5f7;
+   background: #f8f8f8;
    margin: 5px;
    transition: all 0.3s ease;
 }
@@ -89,7 +94,7 @@ nav{
 @media screen and (max-width: 800px){
    nav{
        position: fixed;
-       z-index: 3;
+       z-index: 10;
    }
    .logo{
       margin-left: 20px;
@@ -106,7 +111,7 @@ nav{
    }
    .nav-links{
        position: fixed;
-       background: #131418;
+       background: #21282b;
        height: 100vh;
        width: 100%;
        flex-direction: column;
@@ -115,6 +120,9 @@ nav{
        transition: all 1s ease-out;
        pointer-events: none;
        margin-left: 0;
+   }
+   .nav-links li:hover{
+      background-color:  #085aff ;
    }
    .nav-links.open{
        clip-path: circle(1000px at 90% -10%);
