@@ -14,9 +14,24 @@ h1 {
     box-sizing: border-box;
 }
 
-
+.home_right{
+    float: right;
+}
 .home_left h2 {
     font-family: 'Balsamiq Sans', cursive;
+}
+.home_left .header_button{
+    margin-top: 10px  ;
+    background-color: #085aff;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 2em;
+    color: white;
+    box-shadow: 1px 2px white;
+}
+.home_right img{
+    margin-top: 175px;
+    margin-right: 150px;
 }
 
 /* Fix/hack for 1080p+ displays */
