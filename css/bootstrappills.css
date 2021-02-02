@@ -11,7 +11,7 @@
 }
 
 .nav-pills-custom .nav-link.active {
-    color: #45b649 !important;
+    color: #52b9d0 !important;
     background: #fff !important;
 }
 
@@ -48,5 +48,5 @@
 */
 body {
     min-height: 100vh;
-    background: linear-gradient(to left, #dce35b, #45b649);
+    background-color: #c2f0f6 !important;
 }

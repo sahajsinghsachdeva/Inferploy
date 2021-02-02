@@ -16,13 +16,14 @@ h1 {
 
 .home_right{
     float: right;
+    margin-top: -25px;
 }
 .home_left h2 {
     font-family: 'Balsamiq Sans', cursive;
 }
 .home_left .header_button{
     margin-top: 10px  ;
-    background-color: #085aff;
+    background-color: #3b899a;
     padding: 10px;
     border: 1px solid white;
     border-radius: 2em;
@@ -51,7 +52,7 @@ h1 {
     display: inline-block;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #2575fc;
+    border-right: .15em solid  #52b9d0;
     /* The typwriter cursor */
     white-space: nowrap;
     /* Keeps the content on a single line */
@@ -81,7 +82,7 @@ h1 {
         border-color: transparent
     }
     50% {
-        border-color: #2575fc;
+        border-color:  #52b9d0;
     }
 }
 
@@ -94,8 +95,8 @@ h1 {
 	right: 0;
 	top: 0;
     z-index: -1;
-    background: #085aff;
-    color: #f8f8f8;
+    background: #c2f0f6;
+    color: #52b9d0;
 	font: 100% Lato, Arial, Sans Serif;
 	height: 100vh;
 }

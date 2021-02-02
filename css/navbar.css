@@ -6,7 +6,7 @@ body{
    overflow-x: hidden;
 }
 nav{
-   color: #f8f8f8;
+   color: #000000;
    font-family: sans-serif;
    letter-spacing: 1px;
    font-weight: 300;
@@ -22,7 +22,7 @@ nav{
    background-color: transparent;
 }
 .solid{
-   background-color: #085aff;
+   background-color: #c2f0f6;
 }
 .logo{
    padding:1vh 1vw;
@@ -35,6 +35,7 @@ nav{
    font-variant: small-caps;
    font-weight: bold;
    font-size: 2rem;
+   margin-left: 50px ;
 }
 
 .nav-links{
@@ -43,7 +44,6 @@ nav{
    justify-content: space-evenly;
    align-items: center;
    text-transform: uppercase;
-   margin-left: 45vw;
 }
 .nav-links li{
    padding: 5px;
@@ -52,17 +52,19 @@ nav{
    margin-left: 5px;
 }
 .nav-links li:hover{
-   background-color: #21282b;
-   border: 1px solid #085aff;
+   background-color: white;
+   border: 1px solid #c2f0f6;
    margin-left: 5px;
+   color: #21282b;
 }
 .nav-links li a{
    text-decoration: none;
    margin: 0 0.7vw;
-   color: white;
+   color: #21282b;
 }
 .nav-links li a:hover {
    text-decoration: none;
+   color: #21282b;
 }
 .nav-links li {
    position: relative;
@@ -78,20 +80,22 @@ nav{
 .hamburger{
    display: none;
 }
-@media screen and (max-width: 1486px) and (min-width: 800px){
+@media screen and (max-width: 2560px){
    .nav-links{
-      margin-left: 0 ;
-      justify-content: space-around;
-      width: 62%;
-      margin: auto;
+      margin-left: 45vw ;
    }
 }
-@media screen and (min-width: 2560px){
+@media screen and (max-width: 1320px){
    .nav-links{
-      margin-left: 60vw;
+      margin-left: 30vw;
    }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px){
+   .nav-links{
+      margin-left: 10vw;
+   }
+}
+@media screen and (max-width: 768px){
    nav{
        position: fixed;
        z-index: 10;
@@ -122,7 +126,7 @@ nav{
        margin-left: 0;
    }
    .nav-links li:hover{
-      background-color:  #085aff ;
+      background-color:  white ;
    }
    .nav-links.open{
        clip-path: circle(1000px at 90% -10%);
@@ -151,9 +155,11 @@ nav{
        opacity: 1 !important;
    }
    .nav-links li a{
+      color: white;
       text-decoration: none;
    }
    .nav-links li a:hover{
+      color: black;
       text-decoration: none;
    }
 }
