@@ -1,10 +1,10 @@
 .customer-logos {
-    background-color: #111;
+    background-color: #c2f0f6;
   }
   
   /* Slider */
   .slick-slide {
-      margin: 100px 20px;
+      margin: 50px 20px;
   }
   
   .slick-slide img {
@@ -124,4 +124,7 @@
   }
   .slick-arrow.slick-hidden {
       display: none;
+  }
+  .slide img{
+      height: 200px;
   }
