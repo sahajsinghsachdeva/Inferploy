@@ -127,6 +127,18 @@
     }
 }
 
+/* home page header below */
+
+.quality {
+    padding: 10px;
+    text-align: center;
+}
+
+.quality img {
+    height: 120px;
+    width: 120px;
+}
+
 /* backgorund home */
 
 #background-wrap {
