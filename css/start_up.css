@@ -33,7 +33,7 @@ body{
     position:absolute;
 }
 .startup_logo{
-    height: 15vw;
+    height: 15vw !important;
     width: 15vw;
     margin-left: 15vw;
     margin-top: -10vw;
@@ -66,7 +66,7 @@ body{
 }
 .apply_button{
     background-color: #3b899a;
-    padding: 10px;
+    padding: 5px 10px;
     border: 1px solid white;
     border-radius: 2em;
     color: white;
@@ -75,6 +75,14 @@ body{
     font-size: 1.5rem;
     margin-top: 2vw ;
     margin-bottom: 1vw;
+}
+.apply_button a{
+    text-decoration: none;
+    color: white;
+}
+.apply_button a:hover{
+    text-decoration: none;
+    color: white;
 }
 @media screen and (max-width:768px){
     .event_image{
