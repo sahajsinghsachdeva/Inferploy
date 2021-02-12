@@ -94,6 +94,35 @@
                 </div>
             </div>
         </div>
+
+        <!--contact us section-->
+
+        <script type="text/javascript">
+            var submitted= false;
+        </script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted){window.location='thankyou.html';}"></iframe>
+        <form action='https://docs.google.com/forms/u/2/d/e/1FAIpQLSeGPmbYYmonqY-88hM6tJlqPWvyae8r8JG1FS4oAD7JWOiE-w/formResponse' method="post" target="hidden_iframe" onsubmit="submitted= true;">
+            <div class="container">
+                <table>
+                    <tr>
+                        <td class="label"><label for="nameOfStudent">Name</label></td>
+                        <td class="feild"><input type="text" name="entry.490321656" required placeholder="Please enter your name."></td>
+                    </tr>
+    
+                    <tr>
+                        <td class="label"><label for="email">E-mail</label></td>
+                        <td class="feild"><input type="email" name="entry.1510390606" required placeholder="Please enter your e-mail address."></td>
+                    </tr>
+    
+                    <tr>
+                        <td class="label"><label for="message">Message</label></td>
+                        <td class="feild"><textarea name="entry.579571916" required placeholder="Plesae drop your valuable message or feedback here."></textarea></td>
+                    </tr>
+                </table>
+                <button type="submit" class="submit_button">Send message</button>
+            </div>
+        </form>
+
         <!-- footer panel start-->
         <div id="FooterPanel">
 
