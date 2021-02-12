@@ -25,7 +25,15 @@ a {
     border-bottom: 1px solid #555;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-
+ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: #ebebeb;
+}
+ul li a:hover{
+    text-align: center;
+    color: #ebebeb;
+}
 @media (min-width:1200px) {
     .ct-footer-pre {
         display: table
