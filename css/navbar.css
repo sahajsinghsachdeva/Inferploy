@@ -6,17 +6,17 @@ body{
    overflow-x: hidden;
 }
 nav{
-   color: #000000;
+   color: #555;
    font-family: sans-serif;
    letter-spacing: 1px;
-   font-weight: 300;
+   font-weight: 400;
    height: 6rem;
    width: 100vw;
    border: none;
    display: flex;
    z-index: 999999;
    background-color: #c2f0f6;
-   position: static;
+   position: static !important;
    text-align: center;
 }
 .logo img{
@@ -45,11 +45,13 @@ nav{
 .nav-links li a{
    text-decoration: none;
    margin: 0 0.7vw;
-   color: #21282b;
+   color: #555;
+   font-weight: 600;
 }
 .nav-links li a:hover {
    text-decoration: none;
-   color: #21282b;
+   color: #555;
+   font-weight: 600;
 }
 .nav-links li {
    position: relative;
@@ -93,7 +95,7 @@ nav{
        position: absolute;
        cursor: pointer;
        right: 5%;
-       top: 50%;
+       top:10%;
        transform: translate(-5%, -50%);
        z-index: 2;
        transition: all 0.7s ease;

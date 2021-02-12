@@ -56,6 +56,40 @@
 
     </div>
    <!-- startup end -->
+
+   <!--requesting for other start-ups-->
+    <script type="text/javascript">
+        var submitted= false;
+    </script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted){window.location='thankyou.html';}"></iframe>
+
+   <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSczj-bC0b7hOgy8DzQTrurj6cGekstpvQ8vHwYNIea4I_5e_g/formResponse" method="post" target="hidden_iframe" onsubmit="submitted= true;">
+    <div class="container">
+        <table>
+            <tr>
+                <td class="label"><label for="name">Name</label></td>
+                <td class="feild"><input type="text" name="entry.224099828" required placeholder="Please enter your name."></td>
+            </tr>
+
+            <tr>
+                <td class="label"><label for="email">E-mail</label></td>
+                <td class="feild"><input type="email" name="entry.2135445044" required placeholder="Please provide your email address."></td>
+            </tr>
+
+            <tr>
+                <td class="label"><label for="startUp">Name of start-up you want us to bring here ?</label></td>
+                <td class="feild"><input type="text" name="entry.720723182" required placeholder="Please write name of the start-up."></td>
+            </tr>
+
+            <tr>
+                <td class="label"><label for="contact_details">Please provide any avaliable contact details of the Start-up.</label></td>
+                <td class="feild"><input type="text" name="entry.1118359177" ></td>
+            </tr>
+        </table>
+        <button type="submit" class="submit_button">Submit</button>
+    </div>
+    
+    </form>
    
     <!-- footer panel start-->
     <div id="FooterPanel">
