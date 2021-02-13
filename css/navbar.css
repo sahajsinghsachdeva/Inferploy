@@ -67,19 +67,44 @@ nav{
 .hamburger{
    display: none;
 }
-@media screen and (max-width: 2560px){
+@media screen and (width: 2560px){
    .nav-links{
-      margin-left: 45vw ;
+      margin-left: 65vw ;
+   }
+   .fade{
+      opacity: 1 !important;
    }
 }
-@media screen and (max-width: 1320px){
+@media (min-width:1440px) and (max-width:2559px){
    .nav-links{
-      margin-left: 30vw;
+      margin-left: 43vw ;
+   }
+   .fade{
+      opacity: 1 !important;
    }
 }
-@media screen and (max-width: 1024px){
+@media (min-width:1320px) and (max-width:1439px){
+   .nav-links{
+      margin-left: 39vw;
+   }
+   .fade{
+      opacity: 1 !important;
+   }
+}
+@media (min-width:1024px) and (max-width: 1319px){
+   .nav-links{
+      margin-left: 23vw;
+   }
+   .fade{
+      opacity: 1 !important;
+   }
+}
+@media (min-width:769px) and (max-width: 1023px){
    .nav-links{
       margin-left: 10vw;
+   }
+   .fade{
+      opacity: 1 !important;
    }
 }
 @media screen and (max-width: 768px){
